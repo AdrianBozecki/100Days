@@ -7,6 +7,7 @@ FONT = ("arial", 24, "normal")
 class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
+        self.high_score = 0
         self.score = 0
         self.color("white")
         self.penup()
@@ -14,6 +15,7 @@ class Scoreboard(Turtle):
         self.goto(0, 260)
         self.message = f"Score = {self.score}"
         self.update_scoreboard()
+
 
     def refresh(self):
         self.clear()
