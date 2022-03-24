@@ -39,16 +39,4 @@ while not end_of_round:
             end_of_round = True
     screen.update()
 
-
-
-
-
-
-
-
-
-
-
-
-
 screen.exitonclick()
